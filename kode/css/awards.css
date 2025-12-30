@@ -1,0 +1,18 @@
+.header-navs a:nth-child(2) {
+  border-bottom: 4px solid #4f4ff4;
+  padding: 8px 2px;
+}
+.burger-navs li:nth-child(2) {
+  position: relative;
+  left: -15px;
+  width: 104.6%;
+  background: rgba(255, 255, 255, 0.1);
+  padding-top: 12px;
+  padding-bottom: 6px;
+  padding-right: 15px;
+}
+.burger-navs li:nth-child(2) a {
+  color: #fff;
+  border-bottom: 0;
+  padding-left: 15px;
+}
