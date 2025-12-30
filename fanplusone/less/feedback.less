@@ -1,0 +1,85 @@
+input, button, a, textarea {
+	&:focus {
+		outline: none;
+	}
+}
+
+.header {
+	padding-top: 33px;
+}
+
+.feedback {
+	padding-bottom: 60px;
+	p {
+		font-size: 21px;
+		max-width: 465px;
+		margin-bottom: 80px;
+		margin-top: 15px;
+	}
+	textarea {
+		min-width: 600px;
+		border: none;
+		border-bottom: 1px solid #0f091f;
+		min-height: 125px;
+		resize: none;
+	}
+	input {
+		min-width: 600px;
+		border: none;
+		border-bottom: 1px solid #0f091f;
+		padding-bottom: 5px;
+		margin-bottom: 30px;
+		font-size: 18px;
+	}
+	form {
+		p {
+			font-weight: 400;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+	}
+	button {
+		display: block;
+		width: 600px;
+		padding: 20px 64px;
+		color: #fff;
+		font-weight: 600;
+		font-size: 18px;
+		background-color: #6e3ef5;
+		border: none;
+		box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25);
+		border-radius: 10px;
+		margin-top: 47px;
+	}
+}
+
+.modals {
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0,0,0,0.3);
+	&-dialog {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		background: #fff;
+		max-width: 380px;
+		height: 410px;
+		padding: 30px 40px;
+		p {
+			margin-top: 10px;
+			margin-bottom: 30px;
+		}
+		img {
+			position: absolute;
+			max-width: 380px;
+			z-index: 999;
+		}
+	}
+}

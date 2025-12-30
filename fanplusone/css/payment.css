@@ -1,0 +1,54 @@
+.main-title {
+	padding-bottom: 94px;
+}
+section {
+	max-width: 954px;
+	margin: 0 auto;
+}
+section div {
+	margin-bottom: 48px;
+}
+section p,
+ul li {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: justify;
+	letter-spacing: -0.06em;
+	color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 30px;
+}
+ul {
+	padding-left: 14px;
+}
+li {
+	margin-bottom: 0 !important;
+}
+table {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	margin: 47px auto;
+}
+th {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 115%;
+	color: #000000;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	padding: 10px 40px;
+	background: #D5C7FA;
+}
+td {
+	font-size: 14px;
+	line-height: 115%;
+	letter-spacing: 0.01em;
+	color: rgba(5, 17, 26, 0.6);
+	padding: 10px 40px;
+	border: 1px solid #000;
+}
+.first td:first-child, .second td:first-child {
+	max-width: 198px;
+}

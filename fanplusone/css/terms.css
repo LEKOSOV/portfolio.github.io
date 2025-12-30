@@ -1,0 +1,40 @@
+.main-title {
+	padding-bottom: 19px;
+}
+.main-flex {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 45px;
+}
+.main-btn {
+	font-family: 'SF Pro Display', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 59px;
+	letter-spacing: -0.02em;
+	color: #3F01E7;
+	background: transparent;
+	border: none;
+	padding: 0;
+	margin-right: 45px;
+}
+.main-btn:last-child {
+	margin-right: 0;
+	color: rgba(0, 0, 0, 0.6);
+}
+section {
+	max-width: 954px;
+	margin: 0 auto;
+}
+#second {
+	display: none;
+}
+strong {
+	color: #000;
+}
+#first,
+#second {
+	font-size: 12px !important;
+	line-height: 20px !important;
+	color: rgba(0,0,0,0.6) !important;
+}

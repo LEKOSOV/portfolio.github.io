@@ -1,0 +1,44 @@
+.header {
+  padding-top: 33px;
+  margin-bottom: 50px;
+}
+.work {
+  font-family: 'Montserrat', sans-serif;
+}
+.work-item {
+  margin-bottom: 121px;
+}
+.work-content {
+  display: flex;
+  margin-top: 47px;
+}
+.work-content p {
+  max-width: 904px;
+  font-size: 20px;
+  line-height: 34px;
+}
+.work-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.work .btn {
+  max-width: 440px;
+}
+.work-adv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 123px;
+  background: rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 5px 17px 3px rgba(0, 0, 0, 0.22);
+  border-radius: 25px;
+  padding: 50px 83px;
+}
+.work-adv img {
+  margin-bottom: 22px;
+}
+.work-adv img:last-child {
+  margin-bottom: 0;
+}
